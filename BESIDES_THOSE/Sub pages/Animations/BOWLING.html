@@ -1,0 +1,40 @@
+<html>
+<head>
+<charset name="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-5">
+<Title>Animations</Title>
+<link rel="stylesheet" href="../../../HTML_WITH_CSS/MAIN.css">
+</head>
+<body>
+<div>
+<h1 class="Title_me">Honey-lighting.net</h1>
+<a href="../../../HTML_WITH_CSS/MAIN.html" class="Button1">Home</a>
+<a href="../../../HTML_WITH_CSS/ANIMATIONS.html" class="Button1">Animations</a>
+<a href="../../../HTML_WITH_CSS/GAMES.html" class="Button1">Games</a>
+<a href="../../../HTML_WITH_CSS/NEWS.html" class="Button1">Update!!!</a>
+<a href="../../../HTML_WITH_CSS/ABOUT.html" class="Button1">About</a>
+</div>
+<h2 class="Mn_desc" style="text-align: center; font-size: 40px;">Bowling ball Short</h2>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px;">A stick figure introduce himself to you, but a bowling ball went and hit him! but something unusual happens..</h2>
+
+<div id="container"> </div>
+
+<script src="https://web.archive.org/web/20230111203800/https://e9x.github.io/ruffle-example/ruffle.js"></script>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("container"); 
+            container.appendChild(player);
+            player.load({
+                url: "../../SWFs/STICK_SHORT.swf", 
+                backgroundColor: "#000", 
+             });
+            player.style.width = "640px"; 
+            player.style.height = "480px";
+        });
+    </script>
+
+</body>
+</html>
