@@ -1,0 +1,71 @@
+<html>
+<head>
+<charset name="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-5">
+<Title>Main Page</Title>
+<link rel="stylesheet" href="MAIN.css">
+</head>
+<body>
+<div>
+<h1 class="Title_me">Honey-lighting.net</h1>
+<a href="MAIN.html" class="Button1">Home</a>
+<a href="CONSTRUCT.html" class="Button1">Animations</a>
+<a href="CONSTRUCT.html" class="Button1">Games</a>
+<a href="CONSTRUCT.html" class="Button1">Update!!!</a>
+<a href="CONSTRUCT.html" class="Button1">About</a>
+</div>
+
+<h2 class="Mn_desc" style="text-align: center; font-size: 40px;">Remember that Ill be bored of this website since: </h2>
+<div id="clock" style="font-size: 60px; font-family: Arial, Helvetica, sans-serif; text-align: center;"></div>
+<script>
+    <!--HTML code generator made ts-->
+const liveTimeWithMillisecond = () => {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = (now.getMonth() + 1).toString().padStart(2, '0');
+    const day = now.getDate().toString().padStart(2, '0');
+    let hours = now.getHours();
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    const milliseconds = now.getMilliseconds().toString().padStart(3, '0');
+
+    // 12-hour clock with AM/PM.
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // The hour '0' should be '12'
+    const formatted_hours = hours.toString().padStart(2, '0');
+    const formatted_time = `${year}-${month}-${day} ${formatted_hours}:${minutes}:${seconds}.${milliseconds} ${ampm}`;
+
+    // for 24 hours
+    // const formatted_time = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;
+
+    document.getElementById('clock').textContent = formatted_time;
+};
+// update time every 10 millisecond
+setInterval(liveTimeWithMillisecond, 10);
+    </script>
+<h2 class="Mn_desc" style="text-align: center; font-size: 40px;">Hey! You found this secret web page!</h2>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px;">Cool people I found on the internet (Youtube) {11/4/25} </h2>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-Milo </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fjCiaM-BydQ?si=F7BVsBN5ODa6Pz_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-YoylecakeJ </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BRz6uFVAD_Q?si=RKddePuvqbDdAumf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-Pixelmentor </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5wx5yTpHMu8?si=l9sy1D4iHUFNIDIy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-LGarbage </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AEECOr4t1Bc?si=YJsH8FbqqHda1hDt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-Guyven </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/guUn0PC3MNU?si=ooCN1GsVV12peQia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-Micheal MJD </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/psZgi2Znbew?si=HW1PWFYo5BMCXh9O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-JermeyJankins </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S73okbjdOGA?si=qIszXKTX2-vGrfID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-I Can't Sleep/Nosleep666 </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xEt1znC1pTc?si=4MrRV34GIz7dyANK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-Dumb Doggo </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qwoeq9svCBs?si=OYsOaOHsvriRIvEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 class="Mn_desc" style="text-align: left; font-size: 30px; animation-name: none;">-Green Day :D </h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zHZr-RzlvZY?si=tXwWZbBZrRb5Xhzh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</a>
+</html>
